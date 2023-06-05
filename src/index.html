@@ -10,6 +10,10 @@
       integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/e7f7d9654d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
   </head>
 
@@ -23,8 +27,19 @@
           <option value="false">False</option>
         </select>
       </li>
+
       <li>
-        <label>Name</label>
+        <label>Background URL</label>
+        <input class="picker" for="" type="text" />
+      </li>
+
+      <li>
+        <label>Avatar URL</label>
+        <input class="picker" for="photo" type="text" />
+      </li>
+
+      <li>
+        <label>First Name</label>
         <input class="picker" for="name" type="text" />
       </li>
       <li>
@@ -57,7 +72,7 @@
       <li>
         <label>Role</label>
         <select class="picker" for="role">
-          <option value="">null</option>
+          <option value="" selected disabled>Choose</option>
           <option value="Web Developer">Web Developer</option>
           <option value="Floor Planner">Floor Planner</option>
           <option value="Technical Writter">Technical Writter</option>
@@ -66,7 +81,7 @@
       <li>
         <label>City</label>
         <select class="picker" for="city">
-          <option value="">null</option>
+          <option value="" selected disabled>Choose</option>
           <option value="Miami">Miami</option>
           <option value="Munich">Munich</option>
           <option value="Caracas">Caracas</option>
@@ -76,7 +91,7 @@
       <li>
         <label>Country</label>
         <select class="picker" for="country">
-          <option value="">null</option>
+          <option value="" selected disabled>Choose</option>
           <option value="USA">USA</option>
           <option value="Germany">Germany</option>
           <option value="Canada">Canada</option>
